@@ -39,6 +39,8 @@
     "consola": "^3.2.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@hywax/tools-eslint": "^1.0.0",
     "@nuxt/devtools": "^1.5.0",
     "@nuxt/module-builder": "^0.8.4",
