@@ -1,0 +1,47 @@
+name: ci
+
+on:
+  push:
+    paths-ignore:
+      - .md
+    branches:
+      - main
+  pull_request:
+    paths-ignore:
+      - '*.md'
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9.12.1
+          run_install: true
+
+      - name: Build prepare
+        run: pnpm run dev:prepare
+
+      - name: Run lint
+        run: pnpm run lint
+
+      - name: Run test
+        run: pnpm run test
+
+      - name: Run typecheck
+        run: pnpm run test:types
+
+      - name: Prepack
+        run: pnpm run prepack
