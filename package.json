@@ -1,7 +1,7 @@
 {
   "name": "nuxt-layers-prepare",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@9.12.1",
   "description": "Nuxt module for preparing Nuxt layers",
   "license": "MIT",
