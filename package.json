@@ -2,7 +2,7 @@
   "name": "nuxt-layers-prepare",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.13.2",
   "description": "Nuxt module for preparing Nuxt layers",
   "license": "MIT",
   "repository": {
@@ -52,7 +52,7 @@
     "lint-staged": "^15.2.10",
     "nuxt": "^3.14.159",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.4",
+    "vitest": "^2.1.5",
     "vue-tsc": "^2.1.10"
   },
   "lint-staged": {
