@@ -2,7 +2,7 @@
   "name": "nuxt-layers-prepare",
   "type": "module",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.13.2",
+  "packageManager": "pnpm@9.14.2",
   "description": "Nuxt module for preparing Nuxt layers",
   "license": "MIT",
   "repository": {
@@ -35,22 +35,22 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.14.159",
+    "@nuxt/kit": "^3.14.1592",
     "consola": "^3.2.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
     "@hywax/tools-eslint": "^1.0.0",
-    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/devtools": "^1.6.1",
     "@nuxt/module-builder": "^0.8.4",
-    "@nuxt/schema": "^3.14.159",
+    "@nuxt/schema": "^3.14.1592",
     "@nuxt/test-utils": "^3.14.4",
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.9.1",
     "changelogen": "^0.5.7",
-    "husky": "^9.1.6",
+    "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
-    "nuxt": "^3.14.159",
+    "nuxt": "^3.14.1592",
     "typescript": "^5.6.3",
     "vitest": "^2.1.5",
     "vue-tsc": "^2.1.10"
